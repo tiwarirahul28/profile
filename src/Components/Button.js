@@ -1,0 +1,48 @@
+import React from 'react';
+import styled from 'styled-components';
+
+function Button({filter, button}) {
+    return (
+        <ButtonsStyled>
+            {
+                button.map((but, i) =>{
+                    return <ButtonStyled key={i} onClick={() => filter(but)}>
+                        {but}
+                    </ButtonStyled>
+                })
+            }
+        </ButtonsStyled>
+    )
+}
+
+const ButtonStyled = styled.button`
+    outline: none;
+    border: none;
+    background-color: var(--background-light-color-2);
+    padding: 8px 20px;
+    font-size: inherit;
+    color: var(--white-color);
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    margin-bottom: 8px;
+    &:active ,&:focus{
+        background-color: var(--primary-color);
+    }
+    &:hover{
+        background-color: var(--primary-color);
+    }
+
+    &:not(:last-child){
+        margin-right: 8px;
+    }
+`;
+const ButtonsStyled = styled.div`
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 28px auto;
+`;
+export default Button;
