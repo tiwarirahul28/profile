@@ -86,7 +86,7 @@ const NavigationStyled = styled.nav`
                 transition: all .4s ease-in-out;
                 font-weight: normal;
                 letter-spacing: 1px;
-
+                font-size: 16px;
                 &:hover{
                     cursor: pointer;
                     color: var(--white-color);

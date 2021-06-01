@@ -13,7 +13,7 @@ function HomePage() {
             </div> */}
             <div className="typography">
                 <h1>Hi, I'm <span>Rahul Tiwari</span></h1>
-                <p>I am a Frontend Web Developer</p>
+                <p>Frontend Developer</p>
                 <div className="icons">
                     <a href="https://www.facebook.com/profile.php?id=100043219863014" target="-blank" className="icon i-facebook">
                         <FacebookIcon />

@@ -12,7 +12,7 @@ function ImageSection() {
             <div className="right-container">
                 <h4>I am <span>Rahul Tiwari</span></h4>
                 <p className="paragraph">
-                    I am Frontend Web Developer
+                    Frontend Developer
                 </p>
 
                 <div className="about-info">
