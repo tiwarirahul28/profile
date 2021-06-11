@@ -52,7 +52,7 @@ function Resume() {
                         // text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
                     />
                     <ResumeItem 
-                        year={'2015 - 2017'} 
+                        year={'2010 - 2018'} 
                         title={'SSC'}
                         subtitle={'Saraswati Mandir High School'}
                         // text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 

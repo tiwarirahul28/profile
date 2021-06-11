@@ -120,9 +120,12 @@ const NavigationStyled = styled.nav`
         p{
             padding: 14px 0;
             color: whit;
-            font-size: 14px;
+            font-size: 12px;
             display: block;
             text-align: center;
+        }
+        b{
+            font-size: 14px;
         }
     }
 

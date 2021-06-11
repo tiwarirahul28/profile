@@ -17,12 +17,12 @@ function ServicesSection() {
                     <ServiceCard 
                         image={web}
                         title={'Web Developer'}
-                        paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.'}
+                        paragraph={''}
                     />
                     <ServiceCard 
                         image={design}
                         title={'Web Design'}
-                        paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.'}
+                        paragraph={''}
                     />
                     {/* <ServiceCard 
                         image={ui}
