@@ -16,7 +16,7 @@ const portfolios = [
         category: 'HTML/CSS',
         image: img1,
         link1: 'https://github.com/TheRahulTiwari28/acehaversack',
-        link2: 'https://www.google.com',
+        link2: 'https://acehaversack.netlify.app/',
         title: 'AceHaverSack',
         text: 'E-Commerce website'
     },
@@ -25,7 +25,7 @@ const portfolios = [
         category: 'Javascript',
         image: img2,
         link1: 'https://github.com/TheRahulTiwari28/marvel',
-        // link2: 'https://www.google.com',
+        link2: 'https://marvelsh.netlify.app/',
         title: 'Marvel SH',
         text: 'Collection Of SuperHeros & Their Movies'
     },
@@ -34,7 +34,7 @@ const portfolios = [
         category: 'Javascript',
         image: img3,
         link1: 'https://github.com/TheRahulTiwari28/covide-19',
-        // link2: 'https://www.google.com',
+        link2: 'https://covide-19.netlify.app/',
         title: 'Covide-19',
         text: 'Symptoms & Precautions of covid 19'
     },
@@ -43,7 +43,7 @@ const portfolios = [
         category: 'Javascript',
         image: img4,
         link1: 'https://github.com/TheRahulTiwari28/fitness',
-        // link2: 'https://www.google.com',
+        link2: 'https://fithit.netlify.app/',
         title: 'Fitness',
         text: 'Fit India Hit India'
     },
@@ -52,7 +52,7 @@ const portfolios = [
         category: 'React JS',
         image: img5,
         link1: 'https://github.com/TheRahulTiwari28/resort',
-        // link2: 'https://www.google.com',
+        link2: ' https://bookyourroom.netlify.app/',
         title: 'Resort',
         text: 'Resort is the ideal getaway for anyone who loves the sea.'
     },
@@ -61,7 +61,7 @@ const portfolios = [
         category: 'React JS',
         image: img6,
         link1: 'https://github.com/TheRahulTiwari28/tesla-clone',
-        // link2: 'https://www.google.com',
+        link2: 'https://tesla-clone-1.netlify.app/',
         title: 'Tesla',
         text: 'Tesla-Clone'
     },
@@ -69,8 +69,8 @@ const portfolios = [
         id: 7,
         category: 'React JS',
         image: img7,
-        link1: 'https://github.com/TheRahulTiwari28/tesla-clone',
-        // link2: 'https://www.google.com',
+        link1: 'https://github.com/TheRahulTiwari28/codelab',
+        link2: 'https://languagelab.netlify.app/',
         title: 'LanguageLab',
         text: 'Learn coding Online'
     },
@@ -78,8 +78,8 @@ const portfolios = [
         id: 8,
         category: 'HTML/CSS',
         image: img8,
-        link1: 'https://github.com/TheRahulTiwari28/tesla-clone',
-        // link2: 'https://www.google.com',
+        link1: 'https://github.com/TheRahulTiwari28/recipes',
+        link2: ' https://easytomake.netlify.app/',
         title: 'EasyToMake',
         text: 'Recipe easy to make'
     },
@@ -87,8 +87,8 @@ const portfolios = [
         id: 9,
         category: 'HTML/CSS',
         image: img9,
-        link1: 'https://github.com/TheRahulTiwari28/tesla-clone',
-        // link2: 'https://www.google.com',
+        link1: 'https://github.com/TheRahulTiwari28/eduford',
+        link2: 'https://edufordcollege.netlify.app/',
         title: 'EduFord',
         text: 'EduFord'
     },
@@ -96,8 +96,8 @@ const portfolios = [
         id: 10,
         category: 'React JS',
         image: img10,
-        link1: 'https://github.com/TheRahulTiwari28/tesla-clone',
-        // link2: 'https://www.google.com',
+        link1: 'https://github.com/TheRahulTiwari28/CarDekho',
+        link2: ' https://cardekho.netlify.app/',
         title: 'CarDekho',
         text: 'Find a car with your choice'
     }

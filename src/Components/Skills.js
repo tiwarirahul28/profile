@@ -7,7 +7,7 @@ import {InnerLayout} from '../styles/Layouts';
 function Skills() {
     return (
         <SkillsStyled>
-            <Title title={'My Skills'} span={'My Skills'}/>
+            <Title title={'My Skills'}/>
             <InnerLayout>
                 <div className="skills">
                     <ProgressBar 

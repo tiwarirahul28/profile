@@ -18,17 +18,17 @@ function Resume() {
                     <SmallTitle icon={briefcase} title={'Working Experience'} />
                 </div>
                 <div className="resume-content">
-                    <ResumeItem 
+                    {/* <ResumeItem 
                         year={'Currently'} 
                         title={'Fresher'}
+                    /> */}
+                    <ResumeItem 
+                        year={'2021 - Present'} 
+                        title={'Software Tester'}
+                        subTitle={'Lead School'}
+                        text={'Lead School'} 
                     />
                     {/* <ResumeItem 
-                        year={'2015 - Present'} 
-                        title={'Full Stack Developer'}
-                        subTitle={'Microsoft Studios'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
-                    />
-                    <ResumeItem 
                         year={'2010 - 2017'} 
                         title={'User Interface Designer'}
                         subTitle={'Google Inc'}

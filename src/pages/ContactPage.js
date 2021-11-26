@@ -15,7 +15,7 @@ function ContactPage() {
     return (
         <MainLayout>
             <ContactPageStyled>
-                <Title title={'Contact'} span={'Contact'}/>
+                <Title title={'Contact'}/>
                 <InnerLayout className={'contact-section'}>
                     <div className={'left-contact'}>
                         <div className="contact-title">
