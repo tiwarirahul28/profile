@@ -4,14 +4,19 @@ import img3 from '../img/portImages/covide.png';
 import img4 from '../img/portImages/fithit.png';
 import img5 from '../img/portImages/resort-1.png';
 import img6 from '../img/portImages/tesla-clone.png';
+import img7 from '../img/portImages/languagelab.png';
+import img8 from '../img/portImages/easytomake.png';
+import img9 from '../img/portImages/edufordcollege.png';
+import img10 from '../img/portImages/cardekho.png';
 
+ 
 const portfolios = [
     {
         id: 1,
         category: 'HTML/CSS',
         image: img1,
         link1: 'https://github.com/TheRahulTiwari28/acehaversack',
-        // link2: 'https://www.google.com',
+        link2: 'https://www.google.com',
         title: 'AceHaverSack',
         text: 'E-Commerce website'
     },
@@ -59,6 +64,42 @@ const portfolios = [
         // link2: 'https://www.google.com',
         title: 'Tesla',
         text: 'Tesla-Clone'
+    },
+    {
+        id: 7,
+        category: 'React JS',
+        image: img7,
+        link1: 'https://github.com/TheRahulTiwari28/tesla-clone',
+        // link2: 'https://www.google.com',
+        title: 'LanguageLab',
+        text: 'Learn coding Online'
+    },
+    {
+        id: 8,
+        category: 'HTML/CSS',
+        image: img8,
+        link1: 'https://github.com/TheRahulTiwari28/tesla-clone',
+        // link2: 'https://www.google.com',
+        title: 'EasyToMake',
+        text: 'Recipe easy to make'
+    },
+    {
+        id: 9,
+        category: 'HTML/CSS',
+        image: img9,
+        link1: 'https://github.com/TheRahulTiwari28/tesla-clone',
+        // link2: 'https://www.google.com',
+        title: 'EduFord',
+        text: 'EduFord'
+    },
+    {
+        id: 10,
+        category: 'React JS',
+        image: img10,
+        link1: 'https://github.com/TheRahulTiwari28/tesla-clone',
+        // link2: 'https://www.google.com',
+        title: 'CarDekho',
+        text: 'Find a car with your choice'
     }
 ]
 

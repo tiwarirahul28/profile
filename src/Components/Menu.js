@@ -1,8 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import GitHub from '@material-ui/icons/GitHub';
-// import Instagram from '@material-ui/icons/Instagram';
-
+import WebIcon from '@material-ui/icons/Web';
 function Menu({menuItem}) {
     return (
         <MenuItemStyled >
@@ -18,11 +17,11 @@ function Menu({menuItem}) {
                                             <GitHub />
                                         </a>
                                     </li>
-                                    {/* <li>
+                                    <li>
                                         <a href={item.link2}>
-                                            <Instagram />
+                                            <WebIcon/>
                                         </a>
-                                    </li> */}
+                                    </li>
                                 </ul>
                             </div>
                             <h6>{item.title}</h6>

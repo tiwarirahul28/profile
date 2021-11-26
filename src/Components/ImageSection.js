@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import resume from '../img/avatar.jpg';
+import resume from '../img/avatar.jpeg';
 import Primarybutton from './PrimaryButton';
 
 function ImageSection() {
