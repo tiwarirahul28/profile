@@ -12,28 +12,24 @@ function Resume() {
     const school = <SchoolIcon />
     return (
         <ResumeStyled>
-            <Title title={'Resume'} span={'resume'} />
+            <Title title={'Resume'} />
             <InnerLayout>
                 <div className="small-title">
                     <SmallTitle icon={briefcase} title={'Working Experience'} />
                 </div>
                 <div className="resume-content">
-                    {/* <ResumeItem 
-                        year={'Currently'} 
-                        title={'Fresher'}
-                    /> */}
                     <ResumeItem 
-                        year={'2021 - Present'} 
-                        title={'Software Tester'}
-                        subTitle={'Lead School'}
-                        text={'Lead School'} 
+                        year={'May 2021 - Present'} 
+                        title={'Frontend Web Developer'}
+                        subtitle={'TunicaLabs Media Pvt. Ltd. · Full-time'}
+                        text={'Working on Web Applications. Developing WordPress websites. Maintaining and customizing WordPress websites.'}
                     />
-                    {/* <ResumeItem 
-                        year={'2010 - 2017'} 
-                        title={'User Interface Designer'}
-                        subTitle={'Google Inc'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
-                    /> */}
+                    <ResumeItem 
+                        year={'June 2021 - August 2022'} 
+                        title={'Software Tester'}
+                        subtitle={'Lead School'}
+                        text={'Testing different units of different boards and different subjects on the LEAD TAB. Reviewing the Lead Content Resources. Assisting the parallel teams in maintaining the flow of QA Testing and completing all QA Testing by the deadline.'} 
+                    />
                 </div>
                 <div className="small-title u-small-title-margin">
                     <SmallTitle icon={school} title={'Educational Qualifications'} />

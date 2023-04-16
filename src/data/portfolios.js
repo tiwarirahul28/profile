@@ -8,6 +8,12 @@ import img7 from '../img/portImages/languagelab.png';
 import img8 from '../img/portImages/easytomake.png';
 import img9 from '../img/portImages/edufordcollege.png';
 import img10 from '../img/portImages/cardekho.png';
+import sack from '../img/portImages/sack.png';
+import skillLeran from '../img/portImages/skill-learn.png';
+import futuretech from '../img/portImages/the-future-tech.png';
+import movieflick from '../img/portImages/movieflick.png';
+import protfolio from '../img/portImages/portfolio-website.png';
+import codepen from '../img/portImages/clone-codepen.png';
 
  
 const portfolios = [
@@ -100,6 +106,60 @@ const portfolios = [
         link2: ' https://cardekho.netlify.app/',
         title: 'CarDekho',
         text: 'Find a car with your choice'
+    },
+    {
+        id: 11,
+        category: 'React JS',
+        image: sack,
+        link1: 'https://github.com/TheRahulTiwari28/Sack-react',
+        link2: 'https://sack.netlify.app/',
+        title: 'Sack',
+        text: 'E-Commerce website'
+    },
+    {
+        id: 12,
+        category: 'React JS',
+        image: skillLeran,
+        link1: 'https://github.com/TheRahulTiwari28/skill-learn',
+        link2: 'https://skill-learn.netlify.app/',
+        title: 'Skill Learn',
+        text: 'Learn new skills'
+    },
+    {
+        id: 13,
+        category: 'React JS',
+        image: futuretech,
+        link1: 'https://github.com/TheRahulTiwari28/the-future-tech',
+        link2: 'https://the-future-tech.vercel.app/',
+        title: 'The future tech',
+        text: 'The future tech'
+    },
+    {
+        id: 14,
+        category: 'React JS',
+        image: movieflick,
+        link1: 'https://github.com/TheRahulTiwari28/movieflick',
+        link2: 'https://movieflick.netlify.app/',
+        title: 'Movie Flick',
+        text: 'Movie Flick'
+    },
+    {
+        id: 15,
+        category: 'React JS',
+        image: protfolio,
+        link1: 'https://github.com/TheRahulTiwari28/react-portfolio',
+        link2: 'https://reactjs-portfolio-website.netlify.app/',
+        title: 'Portfolio',
+        text: 'Portfolio website'
+    },
+    {
+        id: 16,
+        category: 'React JS',
+        image: codepen,
+        link1: 'https://github.com/TheRahulTiwari28/codepen-clone',
+        link2: 'https://react-clone-codepen.netlify.app/',
+        title: 'codepen-clone',
+        text: 'codepen-clone'
     }
 ]
 

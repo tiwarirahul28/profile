@@ -32,13 +32,28 @@ function Skills() {
                     />
                     <ProgressBar 
                         title={'REACT JS'}
-                        width={'75%'}
-                        text={'75%'}
+                        width={'85%'}
+                        text={'85%'}
                     />
                     <ProgressBar 
                         title={'SAAS'}
                         width={'85%'}
                         text={'85%'}
+                    />
+                    <ProgressBar 
+                        title={'Node Js'}
+                        width={'75%'}
+                        text={'75%'}
+                    />
+                    <ProgressBar 
+                        title={'Express Js'}
+                        width={'75%'}
+                        text={'75%'}
+                    />
+                    <ProgressBar 
+                        title={'MongoDB'}
+                        width={'75%'}
+                        text={'75%'}
                     />
                 </div>
             </InnerLayout>

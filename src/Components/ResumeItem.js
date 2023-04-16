@@ -35,7 +35,7 @@ const ResumeItemStyled = styled.div`
     }
 
     .left-container{
-        width: 50%;
+        width: 40%;
         padding-left: 20px;
         padding-top: 5px;
         position: relative;
@@ -58,6 +58,7 @@ const ResumeItemStyled = styled.div`
         }
     }
     .right-container{
+        width: 60%;
         padding-left: 2rem;
         position: relative;
 
@@ -75,6 +76,8 @@ const ResumeItemStyled = styled.div`
             color: var(--primary-color);
             font-size: 18px;
             font-weight: normal;
+            line-height: 1.5;   
+            letter-spacing: 1px;
             padding-bottom: .4rem;
         }
 
@@ -82,9 +85,13 @@ const ResumeItemStyled = styled.div`
             padding-bottom: .6rem;
             font-size: 14px;
             font-weight: 100;
+            line-height: 1.5;   
+            letter-spacing: 1px;
         }
         p{
             font-size: 14px;
+            line-height: 1.5;   
+            letter-spacing: 1px;
         }
     }
 `;
